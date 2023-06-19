@@ -1,0 +1,31 @@
+:root {
+  --first-color: #0881a3;
+  --second-color: #fffdfb;
+  --third-color: #fde9df;
+  --fourth-color: #ffd6a4;
+}
+
+body {
+  background: var(--fourth-color);
+  text-align: center;
+  display: block;
+  margin: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  color: var(--first-color);
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+a:visited {
+  color: var(--first-color);
+}
+
+.croissant-img {
+  max-width: 600px;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
